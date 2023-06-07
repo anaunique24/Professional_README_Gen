@@ -24,7 +24,7 @@ const createFile = (response) =>
  
  ## License
  ${response.license}
- [![License](https://img.shields.io/badge/License-${response.licenses}-green.svg)](https://opensource.org/licenses/${response.licenses})
+ [![License](https://img.shields.io/badge/License-${response.license}-green.svg)](https://opensource.org/licenses/${response.license})
  
  ## Contributions
  ${response.contributions}
