@@ -4,10 +4,10 @@ function renderLicenseLink(license) {}
 
 function renderLicenseSection(license) {}
 
-function generateMarkdown(data) {
+function markdown(data) {
   return `# ${data.title}
 
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = markdown;

@@ -1,8 +1,8 @@
 
- # README Generator
+ # Professional README Generator
  
  ## Description
- A backend application that allows users to generate their README files.
+ This application allows users to access a professional readme file.
  
  ## Table of Contents
  - [Installation](#Installation)
@@ -16,7 +16,7 @@
  N/A
 
  ## Usage
- Answer the prompts when running node.js
+ As the user is prompted on the backend, answer the questions in order to generate your README file.
  
  ## License
  MIT
@@ -26,7 +26,7 @@
  N/A
  
  ## Tests
- Running the code on the backend to ensure everything displays properly.
+ Running backend code with node.js to ensure all aspects of the program display properly.
  
  ## Questions
  Any Questions can be answered at anaunique@icloud.com
