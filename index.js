@@ -1,5 +1,5 @@
-const inquirer = required('inquirer');
-const fs = required('fs');
+const inquirer = require('inquirer');
+const fs = require('fs');
 
 const createFile = (response) =>
 `
@@ -44,7 +44,7 @@ const createFile = (response) =>
     },
     {
         type: "input",
-        message: "Please insert your GitHub username.",
+        message: "Please insert your name.",
         name: "userName"
     },
     {
@@ -70,7 +70,29 @@ const createFile = (response) =>
     },
     {
         type: "input",
-        message: "Please insert the name of your project.",
-        name: "title"
+        message: "Please list contributors here.",
+        name: "contributions"
+    },
+    {
+        type: "input",
+        message: "Please explain the testing processes used.",
+        name: "tests"
+    },
+    {
+        type: "input",
+        message: "Please insert your GitHub accounts email.",
+        name: "userEmail"
+    },
+    {
+        type: "input",
+        message: "Please insert your GitHub username.",
+        name: "gitHubName"
     },
  ])
+
+ .then((file) => {
+    const content = createFile(file)
+    fs.writeFile("README.md", content, (error) => 
+    error ? console.log("This is the error", error) : console.log("README.md created succesfully"));
+});
+
