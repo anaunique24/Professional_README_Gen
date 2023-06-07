@@ -20,10 +20,10 @@
  
  ## License
  MIT
- [![License](https://img.shields.io/badge/License-undefined-green.svg)](https://opensource.org/licenses/undefined)
+ [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
  
  ## Contributions
- N/A
+ Ana Grisham
  
  ## Tests
  Running backend code with node.js to ensure all aspects of the program display properly.
