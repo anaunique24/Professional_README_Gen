@@ -9,7 +9,7 @@ const createFile = (response) =>
  ${response.description}
  
  ## Table of Contents
- - [Installation] (#Installation)
+ - [Installation](#Installation)
  - [Usage](#Usage)
  - [License](#License)
  - [Contributions](#Contributions)

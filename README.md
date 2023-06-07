@@ -1,11 +1,11 @@
 
- # an
+ # README Generator
  
  ## Description
- an
+ A backend application that allows users to generate their README files.
  
  ## Table of Contents
- - [Installation] (#Installation)
+ - [Installation](#Installation)
  - [Usage](#Usage)
  - [License](#License)
  - [Contributions](#Contributions)
@@ -13,21 +13,22 @@
  - [Questions](#Questions)
  
  ## Installation
- ana
+ N/A
 
  ## Usage
- an
+ Answer the prompts when running node.js
  
  ## License
  MIT
+ [![License](https://img.shields.io/badge/License-undefined-green.svg)](https://opensource.org/licenses/undefined)
  
  ## Contributions
- a
+ N/A
  
  ## Tests
- a
+ Running the code on the backend to ensure everything displays properly.
  
  ## Questions
- Any Questions can be answered at a
+ Any Questions can be answered at anaunique@icloud.com
  
- https://github.com/a
+ https://github.com/anaunique24
