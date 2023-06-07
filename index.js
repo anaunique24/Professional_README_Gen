@@ -24,6 +24,7 @@ const createFile = (response) =>
  
  ## License
  ${response.license}
+ [![License](https://img.shields.io/badge/License-${response.licenses}-green.svg)](https://opensource.org/licenses/${response.licenses})
  
  ## Contributions
  ${response.contributions}
@@ -95,4 +96,3 @@ const createFile = (response) =>
     fs.writeFile("README.md", content, (error) => 
     error ? console.log("This is the error", error) : console.log("README.md created succesfully"));
 });
-
