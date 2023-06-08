@@ -13,7 +13,8 @@
  - [Questions](#Questions)
  
  ## Installation
- N/A
+ - Node.js
+ - Inquirer
 
  ## Usage
  As the user is prompted on the backend, answer the questions in order to generate your README file.
